@@ -1,0 +1,43 @@
+/* Styles specific to the home page */
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.home-card {
+    flex-basis: calc(50% - 40px);
+    margin: 20px;
+    box-sizing: border-box;
+    /* Ensure padding and border are included in the width */
+    opacity: 0;
+    /* Set initial opacity to 0 for the fade-in effect */
+    animation: fadeIn 0.5s ease-in-out forwards;
+    /* Apply the fade-in animation */
+    transition: transform 0.3s ease-in-out;
+    /* Add a transition for smooth scaling */
+}
+
+.home-card:hover {
+    transform: scale(1.05);
+    /* Scale the card on hover */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.home-card i {
+    font-size: 2em;
+    margin-bottom: 15px;
+    display: block;
+    text-align: center;
+}
+
+/* Add any additional home page styles here */

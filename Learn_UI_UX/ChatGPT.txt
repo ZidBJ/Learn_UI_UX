@@ -1,0 +1,15 @@
+now i want to move to form page:
+i have 30 fields with devrant types, this form for create new employee!
+i want you to design for me that!
+make it with colors fo nadec what i sand it to you, and make it 2 fields per raw, 
+and make label from you for create new employee
+5 Drop Dwon
+9 input fields with any type like name or email or phone or catogory and so on, 
+1 radio button
+1 check box
+7 date time 
+1 range value
+3 upload photo
+4 upload files 
+and so on to complate 30 fields
+

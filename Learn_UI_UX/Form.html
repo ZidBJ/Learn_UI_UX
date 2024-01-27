@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NADEC Company - Create New Employee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form-styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="./Home.html">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Form Page Content -->
+    <div class="form-container">
+        <h2>Create New Employee</h2>
+        <form>
+            <!-- Dropdowns -->
+            <div class="form-field">
+                <label for="department">Department:</label>
+                <select id="department" name="department" required>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </div>
+
+            <div class="form-field">
+                <label for="position">Position:</label>
+                <select id="position" name="position" required>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </div>
+
+            <!-- Input Fields -->
+            <div class="form-field">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+
+            <div class="form-field">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+
+            <!-- Add more input fields as needed -->
+
+            <!-- Radio Button -->
+            <div class="form-field">
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-field">
+                <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+                <label for="agreeTerms">I agree to the terms and conditions</label>
+            </div>
+
+            <!-- Date and Time Fields -->
+            <div class="form-field">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <!-- Add more date and time fields as needed -->
+
+            <!-- Range Value -->
+            <div class="form-field">
+                <label for="experience">Years of Experience:</label>
+                <input type="range" id="experience" name="experience" min="0" max="10" step="1">
+            </div>
+
+            <!-- Upload Photo -->
+            <div class="form-field">
+                <label for="photo">Upload Photo:</label>
+                <input type="file" id="photo" name="photo" accept="image/*">
+            </div>
+
+            <!-- Upload Files -->
+            <div class="form-field">
+                <label for="resume">Upload Resume:</label>
+                <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx">
+            </div>
+
+            <!-- Add more file upload fields as needed -->
+
+            <!-- Submit Button -->
+            <button type="submit">Create Employee</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
